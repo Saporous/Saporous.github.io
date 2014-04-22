@@ -3,25 +3,47 @@
  <head>
          <meta charset="utf-8">
          <title>Jeffrey Chen's Webpage</title>
-         <link rel="stylesheet" href="http://flip.hr/css/bootstrap.min.css">
-         <link href="starter-template.css" rel="stylesheet">
+	    <!-- Bootstrap core CSS -->
+	    <link href="./css/bootstrap.min.css" rel="stylesheet">
+         <link href="css/starter-template.css" rel="stylesheet">
  </head>
  <body>
 
- <div class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">About me</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./JeffreyChenComputerEngineer.pdf">Resume</a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	<br>
+	<div class="container">
  	
   <table border="0" cellpadding="5">
 		<tbody><tr align="top">
-			<td align="top"><img src="./jeff_mugshot.jpg"></td>
+			<td align="top"><img src="./jeff_mugshot.jpg" Hspace="10"></td>
 			<td align="top">
         <br>
-	   	 	<b> Jeffrey Chen </b>
-	      <br> Student
+	   	 	<b>Jeffrey Chen </b>
+	      <br>Student
 	      <br> <a href="http://www.cs.ucr.edu/">
-		    Department of Computer Science and Engineering
+		   Department of Computer Science and Engineering
 	      <br> </a> <a href="http://www.ucr.edu/">
-		    University of California, Riverside
-	      <br> </a> Riverside, CA 92521
+		   University of California, Riverside
+	      <br> </a>Riverside, CA 92521
 
        </td></tr>
 		</tbody>
@@ -66,20 +88,26 @@
 
 
          </div><!-- .span12 -->
- </div><!-- .row -->
+    </div><!-- .row -->
  	<hr>
-  <div class="row">
-         <div class="span12">
-         <h3><center>Fields of experience</center></h3>
-						<ul>
-						<li>CNC Machines
-						<li>Laser engraving
-						<li>Plastics extrusion
-						<li>Woodworking
-						</ul>
-         </div><!-- .span12 -->
- </div><!-- .row -->
+  	<div class="row">
+        <div class="span12">
+         	<h3><center>Fields of experience</center></h3>
+				<ul>
+					<li>CNC Machines
+					<li>Laser engraving
+					<li>Plastics extrusion
+					<li>Woodworking
+				</ul>
+        </div><!-- .span12 -->
+ 	</div><!-- .row -->
 </div><!-- .container -->
 
- </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
 </html>
